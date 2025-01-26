@@ -1,0 +1,19 @@
+#customer-details{
+    text-align: center;
+}
+body{
+    background-color: #25537c;
+    background-image: url(trendytreasuresicon.jpg) ;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+#h1{
+    text-align: center;
+    
+}
+#formbox{
+    border: 20px solid goldenrod;
+    border-radius: 50px;
+    background-color: cornsilk;
+}

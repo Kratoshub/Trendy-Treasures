@@ -1,0 +1,112 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial,sans-serif;
+}
+.navbar{
+    
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    display: block;
+    text-align: center;
+}
+.navbar a:active{
+    color: rgb(255, 230, 0);
+}
+.navbar a:hover{
+    background-color: goldenrod;
+}
+.navbar .logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar .menu{
+    
+    
+    margin-left: auto;
+    display: flex;
+}
+body{
+    background-image:url(trendytreasuresicon.jpg) ;
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    text-shadow: gold 5px;
+}
+
+a:active{
+    color: goldenrod;
+}
+a:hover{
+    color: white;
+}
+.cursor{
+    position: fixed;
+    width: 20px;
+    height:20px ;
+    border-radius: 50%;
+    background: goldenrod;
+    transition: 0.1s ;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    mix-blend-mode: difference;
+}
+a:link{
+    text-decoration:underline goldenrod;
+    border: goldenrod;
+    border-radius: 150px;
+}
+#mens{
+    background-color: goldenrod;
+    border: goldenrod;
+    border-radius: 1000px;
+    padding: 30px;
+    margin: 20px;
+}
+.imagebox{
+    border: goldenrod;
+    border-radius: 12px;
+
+}
+#womens{
+    background-color: goldenrod;
+    border: goldenrod;
+    border-radius: 1000px;
+    padding: 30px;
+    margin: 20px;
+}
+#kids{
+    background-color: goldenrod;
+    border: goldenrod;
+    border-radius: 1000px;
+    padding: 30px;
+    margin: 20px;
+}
+#accessories{
+    background-color: goldenrod;
+    border: goldenrod;
+    border-radius: 1000px;
+    padding: 30px;
+    margin: 20px;
+}
+#electricappliances{
+    background-color: goldenrod;
+    border: goldenrod;
+    border-radius: 1000px;
+    padding: 30px;
+    margin: 20px;
+}

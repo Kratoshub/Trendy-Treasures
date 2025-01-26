@@ -1,0 +1,12 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(trendytreasuresicon.jpg) ;
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}

@@ -1,0 +1,20 @@
+#p1{
+    font-weight:bolder;
+    border: 20px solid goldenrod;
+    border-radius: 100px;
+    background-color: cornsilk;
+    font-family:monospace;
+    font-size:large;
+    padding: -100px;
+
+}
+#p2{
+    font-weight:bolder;
+    border: 20px solid goldenrod;
+    border-radius: 100px;
+    background-color: cornsilk;
+    font-family:monospace;
+    font-size:large;
+    padding: 30px;
+
+}
