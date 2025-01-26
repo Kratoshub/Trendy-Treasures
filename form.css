@@ -1,19 +1,130 @@
-#customer-details{
-    text-align: center;
+/* Base styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
-body{
-    background-color: #25537c;
-    background-image: url(trendytreasuresicon.jpg) ;
-    background-size:cover;
-    background-attachment: fixed;
 
-}
-#h1{
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
     text-align: center;
-    
 }
-#formbox{
-    border: 20px solid goldenrod;
-    border-radius: 50px;
+
+header .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .home-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .home-link:hover {
+    color: goldenrod;
+}
+
+/* Form container */
+#formbox {
+    color: goldenrod;
     background-color: cornsilk;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkgoldenrod;
+}
+
+button[type="reset"] {
+    background-color: #ccc;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #formbox {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    input, textarea {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #formbox {
+        padding: 10px;
+        width: 90%;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1.1rem;
+    }
 }
