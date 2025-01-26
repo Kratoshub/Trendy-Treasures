@@ -1,25 +1,68 @@
-*{
+* {
     text-align: center;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-image:url(trendytreasuresicon.jpg) ;
+
+body {
+    background-image: url(trendytreasuresicon.jpg);
     background-color: azure;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-.product{
-    border: 20px solid goldenrod ;
+
+.product {
+    border: 20px solid goldenrod;
     border-radius: 20px;
     text-decoration: dashed goldenrod;
     padding: 20px;
     margin: 300px;
     background-color: goldenrod;
 }
-.imagebox{
+
+.imagebox {
     border: goldenrod;
     border-radius: 20px;
+}
+
+/* For mobile screens */
+@media screen and (max-width: 767px) {
+    .product {
+        margin: 50px;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .imagebox {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* For tablets */
+@media screen and (max-width: 1024px) {
+    .product {
+        margin: 100px;
+        padding: 20px;
+    }
+
+    .imagebox {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* For larger screens or desktop */
+@media screen and (min-width: 1025px) {
+    .product {
+        margin: 300px;
+        padding: 30px;
+    }
+
+    .imagebox {
+        width: 70%;
+        height: auto;
+    }
 }
